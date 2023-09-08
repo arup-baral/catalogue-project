@@ -132,6 +132,7 @@ nav {
     font-size: 0.95rem;
     border-radius: 4px 0 0 4px;
     transition: var(--transition);
+    transition-duration: 0.12s;
 }
 
 #navSearch:focus + .navSearchBoxBorder {
@@ -139,6 +140,10 @@ nav {
     cursor: text;
     outline: var(--box-outline);
     box-shadow: 1px 2px 8px 1px var(--nav_search_box_outline_color);
+}
+
+#navSearch:focus {
+    background-color: #f5efff;
 }
 
 /* .navSearchIcon {
